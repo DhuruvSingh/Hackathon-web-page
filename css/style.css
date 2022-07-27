@@ -83,7 +83,138 @@ nav {
           background-color: #ebcdca;
           color: #3e3e3e; }
 
+@font-face {
+  font-family: cocogoose;
+  src: url(../other-files/cocogoose-cufonfonts/cocogoose_trial.otf);
+}
+
 main {
   background-image: url(../img/Desktop/main_big.png);
   width: 100%;
-  height: 700px; }
+  height: 855px;
+  background-repeat: repeat-x;
+  background-position: center center;}
+  
+  main div {
+    max-width: 1100px;
+    margin: 0 auto;}
+    main div .hellotxt {
+      padding-top: 160px;
+      display: flex;
+      flex-direction: column;}
+      main div .hellotxt h1 {
+        order: 1;
+        margin-top: 25px;
+        font-size: 70px;
+        font-family: cocogoose, sans-serif;
+        color: #ec5242;
+        line-height: 74px;
+        letter-spacing: 3px;
+        background-image: url(../img/Desktop/hackimage.jpg);
+        background-size: auto;
+        background-position: left;
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+      main div .hellotxt h3 {
+        order: 0;
+        color: #ec5242;
+        letter-spacing: 4px;
+        font-size: 46px;
+        font-weight: 500;
+        font-family: "lato", sans-serif;}
+    main div .description {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: 90px;
+      width: 631px;
+      font-family: "lato", sans-serif;
+      font-weight: 400;
+      border: 4px solid rgb(255, 255, 255);
+      background-color: rgb(247, 247, 248);
+      margin: 15px 0px 40px;
+      line-height: 150%;
+      padding: 0px 25px;
+      font-size: 1.125em;}
+    main div .datecr h2 {
+      font-weight: 1000; 
+      font-size: 36px; 
+      font-family: "lato", sans-serif;
+      color: rgb(87, 87, 87);
+      padding-bottom: 10px;
+      letter-spacing: 4px;
+    }
+    main div .datecr p {
+      color: rgb(51, 51, 51);
+      font-family: "lato", sans-serif;
+      font-size: 1.5em;
+    }
+
+section {
+  background-image: url(../img/Desktop/pattern_bg.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);}
+  section div {
+    max-width: 1100px;
+    margin: 0 auto;}
+    section div .mainprogram{
+      width: 100%;
+      height: 637px;
+      padding-top: 80px;}
+      section div .mainprogram div h3 {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "lato", sans-serif;
+        color: white;
+        text-align: center;
+      }
+      section div .mainprogram div div {
+        width: 53px;
+        height: 16px;
+        border-bottom: 1px solid rgb(239, 81, 60);
+        margin: 0px auto 54px;}
+    section div .mainprogram ul{
+      display: flex;}
+      section div .mainprogram ul li{
+        background: rgba(255, 255, 255, 0.1); 
+        margin-right: 3px;
+        list-style: none;
+        display: flex;
+        height: 228px;
+        width: 217px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;}
+        section div .mainprogram ul li:hover{
+          /* border:white solid 3px; */
+          outline: white solid 3px;}
+        section div .mainprogram ul li:active{
+          height: 233px;
+          width: 222px;
+        }
+        section div .mainprogram ul li h3{
+          color: rgb(239, 81, 60);
+          font-size: 1.5em;
+          font-weight: 700;
+        }
+        section div .mainprogram ul li img {
+          padding-top: 21px;
+        }
+        section div .mainprogram ul li p {
+          padding-bottom: 21px;
+          text-align: center;
+          word-break: keep-all;
+          color: rgb(255, 255, 255);
+          font-size: 16px;
+          line-height: 1.5em;
+          font-weight: 400;
+        }
+    section div .mainprogram a{
+      text-decoration: none;
+      color: white;
+      padding-top: 50px;
+      font-size: 16px;
+      text-align: center;
+    }
