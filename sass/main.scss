@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: cocogoose;
+    src: url(../other-files/cocogoose-cufonfonts/cocogoose_trial.otf)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -58,25 +63,40 @@ nav {
         .logo {
             border: #ec5242 solid 5px;
             box-shadow: 0px 5px 40px 2px grey;
+            border-radius: 40px;
             margin: 0px;
             display: flex;
             width: 100px;
-            height: 80px;
+            height: 68px;
             justify-content: center;
             flex-direction: column;
             align-items: center;
 
-            img{
-                width: 50px;
-                height: 50px;
+            a{
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+    
+                p {
+                    color: #888;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-shadow: 1px 5px 5px #ec5242;
+                }
             }
 
-            p {
-                color: #888;
-                font-size: 14px;
-                font-weight: bold;
-                text-shadow: 1px 5px 5px #ec5242;
+            &:active{
+                width: 105px;
+                height: 73px;
             }
+
+
         }
 
         .menu {
@@ -123,5 +143,274 @@ nav {
 main {
     background-image: url(../img/Desktop/main_big.png);
     width: 100%;
-    height: 700px;
+    height: 855px;
+    background-repeat: repeat-x;
+    background-position: center center;
+
+    div {
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .hellotxt {
+            padding-top: 160px;
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                order: 1;
+                margin-top: 25px;
+                font-size: 70px;
+                font-family: cocogoose, sans-serif;
+                color: #ec5242;
+                line-height: 74px;
+                letter-spacing: 3px;
+                background-image: url(../img/Desktop/hackimage.jpg);
+                background-size: auto;
+                background-position: left;
+                background-clip: border-box;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            h3 {
+                order: 0;
+                color: #ec5242;
+                letter-spacing: 4px;
+                font-size: 46px;
+                font-weight: 500;
+                font-family: "lato", sans-serif;
+            }
+        }
+
+        .description {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 90px;
+            width: 631px;
+            font-family: "lato", sans-serif;
+            font-weight: 400;
+            border: 4px solid rgb(255, 255, 255);
+            background-color: rgb(247, 247, 248);
+            margin: 15px 0px 40px;
+            line-height: 150%;
+            padding: 0px 25px;
+            font-size: 1.125em;
+        }
+
+        .datecr {
+            h2 {
+                font-weight: 1000; 
+                font-size: 36px; 
+                font-family: "lato", sans-serif;
+                color: rgb(87, 87, 87);
+                padding-bottom: 10px;
+                letter-spacing: 4px;
+            }
+
+            p {
+                color: rgb(51, 51, 51);
+                font-family: "lato", sans-serif;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+.program {
+    background-image: url(../img/Desktop/pattern_bg.png);
+    background-repeat: repeat;
+    background-color: rgb(39, 42, 50);
+
+    div {
+        max-width: 1100px;
+        margin: 0 auto;
+
+        .mainprogram{
+            width: 100%;
+            height: 500px;
+            padding-top: 80px;
+        
+            div h3 {
+                font-size: 30px;
+                font-weight: 400;
+                font-family: "lato", sans-serif;
+                color: white;
+                text-align: center;
+            }
+
+            div div {
+                width: 53px;
+                height: 16px;
+                border-bottom: 1px solid rgb(239, 81, 60);
+                margin: 0px auto 54px;
+            }
+
+            ul{
+                display: flex;
+                
+                li{
+                    background: rgba(255, 255, 255, 0.1); 
+                    margin-right: 3px;
+                    list-style: none;
+                    display: flex;
+                    height: 228px;
+                    width: 217px;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    
+                    &:hover{
+                        /* border:white solid 3px; */
+                        outline: white solid 3px;
+                    }
+
+                    &:active{
+                        height: 233px;
+                        width: 222px;
+                    }
+
+                    h3{
+                        color: rgb(239, 81, 60);
+                        font-size: 1.5em;
+                        font-weight: 700;
+                    }
+
+                    img {
+                        padding-top: 21px;
+                    }
+
+                    p {
+                        padding-bottom: 21px;
+                        text-align: center;
+                        word-break: keep-all;
+                        color: rgb(255, 255, 255);
+                        font-size: 16px;
+                        line-height: 1.5em;
+                        font-weight: 400;
+                    }
+                }
+
+            }
+
+            .seemore {
+                padding-top: 70px;
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 16px;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.speaker {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    .warper {
+        margin-top: 60px;
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+            font-family: "lato", sans-serif;
+            color: rgb(87, 87, 87)
+        }
+
+        .orangeline {
+            width: 53px;
+            height: 16px;
+            border-bottom: 1px solid rgb(239, 81, 60);
+            margin: 0px auto 54px;
+        }
+
+        ul {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 5px;
+            margin-bottom: 150px;
+            li {
+                display: flex;
+                height: 220px;
+                
+                div {
+                    padding: 20px 20px 0px 20px;
+
+                    h3 {
+                        font-size: 1.5em;
+                        font-weight: 800;
+                        font-family: "lato", sans-serif;
+                        margin-bottom: 5px;
+                    }
+
+                    .organize {
+                        color: #ec5242;
+                        font-size: 13px;
+                        font-weight: 900;
+                        font-style: italic;
+                    }
+
+                    .spkr-description {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.partners {
+    background-color: #414246;
+    height: 260px;
+    width: 100%;
+
+    .partners-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-top: 50px;       
+
+        h2 {
+            text-align: center;
+            color: #868080;
+        }
+
+        .orange-partner {
+            width: 39px;
+            height: 16px;
+            border-bottom: 1px solid #ef513c;
+            margin: 0px auto 54px;
+        }
+
+        div {
+            text-align: center;
+
+            img {
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        width: 270px;
+        height: 60px;
+    }
 }
