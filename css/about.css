@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: cocogoose;
+  src: url(../other-files/cocogoose-cufonfonts/cocogoose_trial.otf); }
+
+body {
+  font-family: "lato", sans-serif; }
+
+header {
+  background-color: #3e3e3e; }
+  header div {
+    display: flex;
+    justify-content: flex-end;
+    height: 36px;
+    background-color: #3e3e3e;
+    align-items: center;
+    max-width: 1100px;
+    height: 36px;
+    margin: 0 auto; }
+    header div ul {
+      display: flex; }
+      header div ul li {
+        list-style: none;
+        padding: 0px 20px 0px 0px; }
+        header div ul li a {
+          text-decoration: none;
+          color: white; }
+          header div ul li a:hover {
+            text-decoration: underline; }
+
+nav {
+  height: 80px;
+  box-shadow: 0px 5   px 17px 0px black; }
+  nav div {
+    max-width: 1100px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; }
+    nav div .logo {
+      border: #ec5242 solid 5px;
+      box-shadow: 0px 5px 40px 2px grey;
+      border-radius: 40px;
+      margin: 0px;
+      display: flex;
+      width: 100px;
+      height: 68px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      nav div .logo a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        nav div .logo a img {
+          width: 50px;
+          height: 50px; }
+        nav div .logo a p {
+          color: #888;
+          font-size: 14px;
+          font-weight: bold;
+          text-shadow: 1px 5px 5px #ec5242; }
+      nav div .logo:active {
+        width: 105px;
+        height: 73px; }
+    nav div .menu {
+      margin: 0px; }
+      nav div .menu ul {
+        display: flex; }
+        nav div .menu ul li {
+          list-style: none;
+          padding-right: 50px; }
+          nav div .menu ul li a {
+            color: #888;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none; }
+            nav div .menu ul li a:hover {
+              color: #ec5242; }
+      nav div .menu button {
+        color: #888;
+        font-size: 14px;
+        font-weight: bold;
+        border: #ec5242 solid 5px;
+        background-color: none;
+        height: 40px;
+        width: 120px; }
+        nav div .menu button:active {
+          background-color: #ebcdca;
+          color: #3e3e3e; }
+
+main {
+    display: flex;
+  background: url(../img/Desktop/about_bg_01.png) no-repeat 100% 20% #f7f7f8;
+  width: 100%;
+  height: 855px;
+ }
+  main .main-about {
+    max-width: 1100px;
+    margin: 0 auto; }
+    main .main-about .main-other-des {
+      text-align: center;
+      margin-top: 76px;
+      font-size: 24px;
+      font-family: "lato", sans-serif;
+      color: #888;}
+      main .main-about .main-other-des a{
+        color: black;
+      }
+    main .main-about .hellotxt {
+      padding-top: 100px;
+      display: flex;
+      flex-direction: column; }
+      main .main-about .hellotxt h1 {
+        text-align: center;
+        font-size: 70px;
+        font-family: cocogoose, sans-serif;
+        color: #ec5242;
+        line-height: 74px;
+        letter-spacing: 3px;}
+
+.description {
+    margin-top: 20px;
+    padding: 38px;
+    height: 270px;
+    width: calc(100% - 40px);
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgb(247, 247, 248);}
+    .description p {
+        font-size: 28px;
+        font-family: "lato", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+section {
+    border: solid 1px red;}
+    section div {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;}
+        section div h3 {
+            font-size: 24px;
+            font-family: "lato", sans-serif;
+            font-weight: 700;
+            margin-top: 50px;
+            margin-bottom: 50px;  
+        }
+        
+
+    
+
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 260px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  footer img {
+    width: 270px;
+    height: 60px; }
