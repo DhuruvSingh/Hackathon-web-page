@@ -242,3 +242,69 @@ footer {
   footer img {
     width: 270px;
     height: 60px; }
+
+@media only screen and (max-width: 768px) {
+
+  header {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  main .main-about .hellotxt h1 {
+    font-size: 30px;
+    line-height: 51px;
+    letter-spacing: 2px;
+  }
+
+  .description {
+    height: 200px;
+    width: calc(85% - 40px);
+    margin-left: 10px;
+  }
+
+  .description p {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  main .main-about .main-other-des {
+    font-size: 22px;
+  }
+
+  section > div > h3 {
+    font-size: 29px;
+    text-align: center;
+  }
+  section > div > p {
+    padding: 0px 35px 50px 35px;
+  }
+
+  section > div > img {
+    height: 160px;
+    width: 330px;
+  }
+
+  .See_post {
+    flex-direction: column;
+  }
+
+  
+.See_post .post1, .post2 {
+  width: 315px;
+  height: 185px;
+  padding-bottom: 20px;
+  }
+
+  .post1, .post2 {
+    background-size: 315px 185px;
+  }
+
+  .post1 h3, .post2 h3 {
+    font-size: 35px;
+  }
+  .post1 p, .post2 p {
+    font-size: 18px;
+  }
+
+}
