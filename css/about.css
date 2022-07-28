@@ -141,21 +141,95 @@ main {
     }
 
 section {
-    border: solid 1px red;}
-    section div {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: flex;}
-        section div h3 {
-            font-size: 24px;
-            font-family: "lato", sans-serif;
-            font-weight: 700;
-            margin-top: 50px;
-            margin-bottom: 50px;  
-        }
-        
+    border: solid 1px rgb(223, 223, 223)}
 
+section > div {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
     
+section > div > h3 {
+    font-size: 34px;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+section > div > p {
+  padding: 0px 150px 50px 150px;
+  text-align: center;
+  color: #888;
+  font-family: "lato", sans-serif;
+  font-weight: 600;}
+
+
+section > div > img {
+  height: 206px;
+  width: 572px;
+  padding-bottom: 50px;}
+
+.See_post {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.See_post .post1, .post2 {
+  width: 540px;
+  height: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+
+.post1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/Desktop/last_posts.jpg);
+  background-size: 540px 300px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.post2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/Desktop/last_post2.jpg);
+  background-size: 540px 300px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.post1:hover{
+  background-image: url(../img/Desktop/posts_hover.jpg);
+}
+
+.post2:hover{
+  background-image: url(../img/Desktop/post2_hover.jpg);
+}
+
+.post1 h3, .post2 h3 {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #ec5242;
+  font-size: 48px;
+  font-family: "lato", sans-serif;
+}
+
+.post1 p, .post2 p {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #ec5242;
+  font-size: 28px;
+  font-family: "lato", sans-serif;
+}
+
 
 footer {
   max-width: 1100px;
