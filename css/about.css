@@ -290,10 +290,10 @@ footer {
   }
 
   
-.See_post .post1, .post2 {
-  width: 315px;
-  height: 185px;
-  padding-bottom: 20px;
+  .See_post .post1, .post2 {
+    width: 315px;
+    height: 185px;
+    padding-bottom: 20px;
   }
 
   .post1, .post2 {
