@@ -10,6 +10,10 @@ HTML/CSS & JavaScript capstone project - Hackathon page
 ## Live Demo: [Click Here](https://dhuruvsingh.github.io/Capstone-M1/)
    **Or You can Directly copy this Link and Paste it in your Browser [https://dhuruvsingh.github.io/Capstone-M1/]**
 
+## Introduction Video of app
+
+### Loom Link: [Click Here](https://www.loom.com/share/e5ce326c95594c7fa531c8426fa6219f)
+
 ## Getting started
 
 Go to https://github.com/DhuruvSingh/Capstone-M1/
