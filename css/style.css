@@ -21,6 +21,7 @@ header {
 header div {
   display: flex;
   justify-content: flex-end;
+
   /* height: 36px; */
   background-color: #3e3e3e;
   align-items: center;
@@ -143,6 +144,7 @@ nav div .menu-dt button {
   font-size: 14px;
   font-weight: bold;
   border: #ec5242 solid 5px;
+
   /* background-color: none; */
   height: 40px;
   width: 120px;
@@ -559,6 +561,11 @@ footer {
     justify-content: center;
   }
 
+  .speaker .warper ul li img {
+    width: 40%;
+    height: 90%;
+  }
+
   .program div .mainprogram ul li img {
     padding-top: 0;
   }
@@ -570,11 +577,6 @@ footer {
 
   .program div .mainprogram .seemore {
     padding-top: 44px;
-  }
-
-  .speaker .warper ul li img {
-    width: 40%;
-    height: 90%;
   }
 
   .speaker .warper ul li div {

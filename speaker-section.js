@@ -1,40 +1,40 @@
 const speakers = [
-    {
-        image: './icons/speakerimg/speaker_01.png',
-        name: 'Yochai Bankler',
-        organize: 'Professor at Harvard Low School',
-        description: 'Focusing on a collaborative approach in a networked environment, he created the concept ofco-production based on sharing',
-    },
-    {
-        image: './icons/speakerimg/speaker_02.png',
-        name: 'Kilnam Chol',
-        organize: 'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
-        description: 'By developing Asias first Internet protocol network SDN and leading Koreas first private line Internet connection in 1990.',
-    },
-    {
-        image: './icons/speakerimg/speaker_03.png',
-        name: 'Sohyeong Noh',
-        organize: 'Art Center Nabi Director, CC Korea Director',
-        description: 'As the author of [Digital Art Art of Our Time], he opened Art Center Nabi, Koreas first digital art institution in 2000.',
-    },
-    {
-        image: './icons/speakerimg/speaker_04.png',
-        name: 'Julia Reda',
-        organize: 'Head of the Young Pirates of Europe',
-        description: 'European integration and online youth participation in politics and democracy are major concerns,and a report has been published that will potentially affect.',
-    },
-    {
-        image: './icons/speakerimg/speaker_05.png',
-        name: 'Lila Tretikov',
-        organize: 'Secretary General of the Wikimedia Foundation',
-        description: 'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people',
-    },
-    {
-        image: './icons/speakerimg/speaker_06.png',
-        name: 'Ryan Merkley',
-        organize: 'Creative Commons CEO, Former Mozilla Foundation COO',
-        description: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
-    },
+  {
+    image: './icons/speakerimg/speaker_01.png',
+    name: 'Yochai Bankler',
+    organize: 'Professor at Harvard Low School',
+    description: 'Focusing on a collaborative approach in a networked environment, he created the concept ofco-production based on sharing',
+  },
+  {
+    image: './icons/speakerimg/speaker_02.png',
+    name: 'Kilnam Chol',
+    organize: 'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
+    description: 'By developing Asias first Internet protocol network SDN and leading Koreas first private line Internet connection in 1990.',
+  },
+  {
+    image: './icons/speakerimg/speaker_03.png',
+    name: 'Sohyeong Noh',
+    organize: 'Art Center Nabi Director, CC Korea Director',
+    description: 'As the author of [Digital Art Art of Our Time], he opened Art Center Nabi, Koreas first digital art institution in 2000.',
+  },
+  {
+    image: './icons/speakerimg/speaker_04.png',
+    name: 'Julia Reda',
+    organize: 'Head of the Young Pirates of Europe',
+    description: 'European integration and online youth participation in politics and democracy are major concerns,and a report has been published that will potentially affect.',
+  },
+  {
+    image: './icons/speakerimg/speaker_05.png',
+    name: 'Lila Tretikov',
+    organize: 'Secretary General of the Wikimedia Foundation',
+    description: 'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people',
+  },
+  {
+    image: './icons/speakerimg/speaker_06.png',
+    name: 'Ryan Merkley',
+    organize: 'Creative Commons CEO, Former Mozilla Foundation COO',
+    description: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
+  },
 ];
 
 document.getElementById('warper').innerHTML = `<h2>Featured Speakers</h2>

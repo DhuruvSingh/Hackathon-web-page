@@ -81,15 +81,23 @@ header div ul li a:hover {
   text-decoration: underline;
 }
 
+footer img {
+  width: 270px;
+  height: 60px;
+}
+
+section > div > p {
+  padding: 0 150px 50px 150px;
+  text-align: center;
+  color: #888;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+
 section > div > img {
   height: 206px;
   width: 572px;
   padding-bottom: 50px;
-}
-
-footer img {
-  width: 270px;
-  height: 60px;
 }
 
 nav div .logo a img {
@@ -166,6 +174,7 @@ nav div .menu-dt button {
   font-size: 14px;
   font-weight: bold;
   border: #ec5242 solid 5px;
+
   /* background-color: none; */
   height: 40px;
   width: 120px;
@@ -230,14 +239,6 @@ section > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-section > div > p {
-  padding: 0 150px 50px 150px;
-  text-align: center;
-  color: #888;
-  font-family: "lato", sans-serif;
-  font-weight: 600;
 }
 
 .See_post {
