@@ -296,6 +296,64 @@ footer {
 .seemore button {
   display: none; }
 
+.nav-icon {
+  display: none; }
+
+.navabar {
+  display: block;
+  margin-right: 20px; }
+
+.hamburger {
+  display: block;
+  position: fixed;
+  z-index: 100;
+  top: 5px;
+  right: 1rem;
+  padding: 4px;
+  border: #fff solid 1px;
+  background: #fff;
+  cursor: pointer;
+  color: black; }
+
+.closeicon {
+  display: none; }
+
+.menu {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  width: 100%;
+  height: 100%;
+  top: -18px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #fff;
+  color: white;
+  list-style: none;
+  overflow-x: hidden;
+  margin-left: 0;
+  padding-left: 28px;
+  padding-top: 60px; }
+
+.menuitem {
+  font-family: Chivo, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  color: #3a4a42; }
+
+.showmenu {
+  transform: translateY(0); }
+
+.menu li a:hover {
+  color: #36b37e; }
+
 @media only screen and (max-width: 768px) {
   main div .hellotxt h3 {
     font-size: 34px; }
@@ -354,7 +412,6 @@ footer {
     grid-template-columns: auto; }
   .speaker .warper ul li {
     height: 150px;
-    border: solid;
     margin-left: 10px;
     margin-right: 10px; }
   .speaker .warper ul li img {
@@ -366,4 +423,7 @@ footer {
     margin-top: 5px;
     font-size: 12px; }
   .speaker .warper ul li div h3 {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+  .program div .mainprogram ul li:active {
+    height: 97px;
+    width: auto; } }
