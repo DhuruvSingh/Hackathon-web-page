@@ -70,21 +70,21 @@ nav {
       nav div .logo:active {
         width: 105px;
         height: 73px; }
-    nav div .menu {
+    nav div .menu-dt {
       margin: 0px; }
-      nav div .menu ul {
+      nav div .menu-dt ul {
         display: flex; }
-        nav div .menu ul li {
+        nav div .menu-dt ul li {
           list-style: none;
           padding-right: 50px; }
-          nav div .menu ul li a {
+          nav div .menu-dt ul li a {
             color: #888;
             font-size: 18px;
             font-weight: bold;
             text-decoration: none; }
-            nav div .menu ul li a:hover {
+            nav div .menu-dt ul li a:hover {
               color: #ec5242; }
-      nav div .menu button {
+      nav div .menu-dt button {
         color: #888;
         font-size: 14px;
         font-weight: bold;
@@ -295,3 +295,54 @@ footer {
 
 .main-about {
   background: url(../img/about_bg_01.png) no-repeat 100% 20% #f7f7f8; }
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  border-bottom: #ec5242 solid 2px;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  left: 1rem;
+  padding: 4px;
+  border: none;
+  color: #888;
+  background: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #fff;
+  /* color: white; */
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.material-icons {
+  font-size: 50px;
+}
