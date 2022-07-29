@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/efd432b0d8.js" crossorigin="anonymous"></script>
     <title>HackaversuMM 22 || Home</title>
 
@@ -39,7 +40,7 @@
                     <p>Code Help</p>
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu-dt">
                 <ul>
                     <li><a href="./about.html">About</a></li>
                     <li><a href="#">Program</a></li>
@@ -52,15 +53,15 @@
         </div>
     </nav>
 
-    <div>
-        <ul class="menu nav-icon desktop-menu">
-            <li><a class="menuItem nav-menu" href="./about.html">About</a></li>
-            <li><a class="menuItem nav-menu" href="#">Program</a></li>
-            <li><a class="menuItem nav-menu" href="#">Join</a></li>
-            <li><a class="menuItem nav-menu" href="#">Sponsor</a></li>
-            <li><a class="menuItem nav-menu" href="#">News</a></li>
+    <div class="mobile-menu">
+        <ul class="menu">
+            <li><a class="menuItem" href="./about.html">About</a></li>
+            <li><a class="menuItem" href="#">Program</a></li>
+            <li><a class="menuItem" href="#">Join</a></li>
+            <li><a class="menuItem" href="#">Sponsor</a></li>
+            <li><a class="menuItem" href="#">News</a></li> 
         </ul>
-        <button type="button" class="hamburger">
+        <button class="hamburger">
             <i class="menuIcon material-icons">menu</i>
             <i class="closeIcon material-icons">close</i>
         </button>
@@ -130,67 +131,8 @@
 
     <!-- Main Speaker Section -->
     <Section class=speaker>
-        <div class="warper">
-            <h2>Featured Speakers</h2>
-            <div class="orangeline"></div>
-            <ul>
-                <li>
-                    <img src="./icons/speakerimg/speaker_01.png" alt="Yochai Bankler Image">
-                    
-                    <div>
-                        <h3>Yochai Bankler</h3>
-                        <p class="organize" >Professor at Harvard Low School</p>
-                        <p class="spkr-description">Focusing on a collaborative approach in a networked environment, he created the concept of
-                        co-production based on sharing</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="./icons/speakerimg/speaker_02.png" alt="Kilnam Chon Image">
-                    <div>
-                        <h3>Kilnam Chol</h3>
-                        <p class="organize">Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)</p>
-                        <p class="spkr-description">By developing Asia's first Internet protocol network SDN and leading Korea's first private line
-                        Internet connection in 1990.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="./icons/speakerimg/speaker_03.png" alt="Sohyeong Noh Image">
-                    <div>
-                        <h3>Sohyeong Noh</h3>
-                        <p class="organize">Art Center Nabi Director, CC Korea Director</p>
-                        <p class="spkr-description">As the author of [Digital Art Art of Our Time], he opened 'Art Center Nabi', Korea's first
-                        digital art institution in 2000.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="./icons/speakerimg/speaker_04.png" alt="Julia Reda Image">
-                    <div>
-                        <h3>Julia Reda</h3>
-                        <p class="organize">Head of the Young Pirates of Europe</p>
-                        <p class="spkr-description">European integration and online youth participation in politics and democracy are major concerns,
-                        and a report has been published that will potentially affect.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="./icons/speakerimg/speaker_05.png" alt="Lila Tretikov Image">
-                    <div>
-                        <h3>Lila Tretikov</h3>
-                        <p class="organize">Secretary General of the Wikimedia Foundation</p>
-                        <p class="spkr-description">Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization
-                        that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over
-                        100 million people.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="./icons/speakerimg/speaker_06.png" alt="Ryan Merkley Image">
-                    <div>
-                        <h3>Ryan Merkley</h3>
-                        <p class="organize">Creative Commons CEO, Former Mozilla Foundation COO</p>
-                        <p class="spkr-description">He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been
-                        active in open movements such as open government and open source.</p>
-                    </div>
-                </li>
-            </ul>
+        <div class="warper" id="warper">
+            
         </div>
     </Section>
 
@@ -212,7 +154,9 @@
         <img src="./icons/CreativeCommons_logo_trademark.svg" alt="Creative Commons logo">
         <h3>2022 Creative Commons. Some Right Reserved</h3>
     </footer>
+
     <script src="./nav-menu.js"></script>
+    <script src="./speaker-section.js"></script>
 </body>
 
 </html>
