@@ -6,12 +6,12 @@ const menuIcon = document.querySelector('.menuIcon');
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
     menu.classList.remove('showMenu');
-    closeIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none','!important';
+    menuIcon.style.display = 'block','!important';
   } else {
     menu.classList.add('showMenu');
-    closeIcon.style.display = 'block';
-    menuIcon.style.display = 'none';
+    closeIcon.style.display = 'block','!important';
+    menuIcon.style.display = 'none','!important';
   }
 }
 

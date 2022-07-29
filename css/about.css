@@ -309,6 +309,18 @@ footer {
   display: none;
 }
 
+.close {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  left: 1rem;
+  padding: 4px;
+  border: none;
+  color: #888;
+  background: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     display: none;
@@ -414,7 +426,7 @@ footer {
 }
 
 .closeIcon {
-  display: none;
+  display: none !important;
 }
 
 .menu {
