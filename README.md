@@ -1,14 +1,16 @@
 # Capston-M1
 HTML/CSS & JavaScript capstone project - Hackathon page
 
+## Screenshot:- ![hackathon-screenshot](https://user-images.githubusercontent.com/84073153/185250275-e2655244-bd00-41cc-a99e-9be24d84cb28.png)
+
 ## Built With
 
 - HTML
 - CSS
 - Linters
 
-## Live Demo: [Click Here](https://dhuruvsingh.github.io/Capstone-M1/)
-   **Or You can Directly copy this Link and Paste it in your Browser [https://dhuruvsingh.github.io/Capstone-M1/]**
+## Live Demo: [Click Here](https://dhuruvsingh.github.io/Hackathon-web-page/)
+   **Or You can Directly copy this Link and Paste it in your Browser [https://dhuruvsingh.github.io/Hackathon-web-page/]**
 
 ## Introduction Video of app
 
@@ -16,7 +18,7 @@ HTML/CSS & JavaScript capstone project - Hackathon page
 
 ## Getting started
 
-Go to https://github.com/DhuruvSingh/Capstone-M1/
+Go to https://github.com/DhuruvSingh/Hackathon-web-page/
 
 1. Clone the project from the repo.
 2. Navigate to the project.
@@ -35,7 +37,7 @@ Go to https://github.com/DhuruvSingh/Capstone-M1/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DhuruvSingh/Capstone-M1/issues).
+Feel free to check the [issues page](https://github.com/DhuruvSingh/Hackathon-web-page/issues).
 
 ## Show your support
 
